@@ -1,4 +1,4 @@
-# Opinionated boilerplate for easily setup cross-platform app
+# Opinionated boilerplate to easily setup cross-platform app
 
 ![](public/img/electron-reactail-v2.png)
 
@@ -6,23 +6,23 @@ This project is a starter template to develop desktop-based apps using Electron 
 
 Bootstrapped from [Create React App](https://github.com/facebook/create-react-app).
 
-## Installation
+## Installations
 
 Follow this steps to run it in your local machine:
 
-1. Run global installation for electron
+**1. Run global installation for electron**
 
 ```
 npm i -g electron
 ```
 
-2. Clone this repository
+**2. Clone this repository**
 
 ```
 git clone https://github.com/ilhambara/electron-reactail.git
 ```
 
-3. Modify node_modules/fsevents (optional)
+**3. Modify node_modules/fsevents (optional)**
 
 If you're facing an error like this:
 
@@ -34,13 +34,13 @@ Check your `package-lock.json` file and search for `node_modules/fsevents`. I ha
 
 Note: This probably not a good approach to edit the `package-lock.json` file straightly like this. Therefore, I suggest you to look for another solution since I'm not find it yet. Here's the useful resources about [this issue](https://stackoverflow.com/questions/56103865/how-to-fix-unsupported-platform-for-fsevents1-2-9-wanted-osdarwin-arch) for your references.
 
-4. Install dependencies
+**4. Install dependencies**
 
 ```
 npm install
 ```
 
-5. Run the app using this custom command:
+**5. Run the app using this custom command:**
 
 ```
 npm run app
