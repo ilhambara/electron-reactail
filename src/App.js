@@ -13,7 +13,7 @@ function App() {
 					<img src={logoTailwind} className="pl-2" alt="logo" />
 				</div>
 				<div className="mt-8 flex flex-col">
-					<p className="text-xl">Boilerplate for cross-platform apps using</p>
+					<p className="text-xl">Boilerplate for desktop-based apps using</p>
 					<code className="mt-4 rounded-md px-4 py-3 bg-gray-900 text-indigo-100 text-2xl">
 						React + Electron + TailwindCSS
 					</code>

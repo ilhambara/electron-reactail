@@ -1,14 +1,14 @@
-# Opinionated boilerplate to easily setup cross-platform app
+# Boilerplate to easily setup desktop-based app
 
-![](public/img/electron-reactail-v2.png)
+![](public/img/app-preview.png)
 
-This project is a starter template to develop desktop-based apps using Electron that combined with React js and TailwindCSS. Configured for Windows, MacOS, and (some) Linux.
+This project is a starter template to quickly develop desktop-based apps using Electron that combined with React js and TailwindCSS. Configured for Windows, MacOS, and (some) Linux.
 
 Bootstrapped from [Create React App](https://github.com/facebook/create-react-app).
 
 ## Installations
 
-Follow this steps to run it in your local machine:
+Follow this steps to run it on your local machine:
 
 **1. Run global installation for electron**
 
@@ -40,7 +40,7 @@ Note: This probably not a good approach to edit the `package-lock.json` file str
 npm install
 ```
 
-**5. Run the app using this custom command:**
+**5. Run the app using this custom command**
 
 ```
 npm run app
@@ -56,5 +56,5 @@ This custom command concurrently runs the development server on [http://localhos
 
 ## References
 
-- [Electron official docs](https://www.electronjs.org/docs/latest/)
-- [electron-quick-start](https://github.com/electron/electron-quick-start)
+- Docs: [electron official docs](https://www.electronjs.org/docs/latest/)
+- Repo: [electron-quick-start](https://github.com/electron/electron-quick-start)
